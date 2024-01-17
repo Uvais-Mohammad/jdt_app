@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:jdt_app/post_section.dart';
 import 'package:jdt_app/story_section.dart';
 
 void main() {
@@ -66,6 +67,7 @@ class _MyHomePageState extends State<MyHomePage> {
       body: const Column(
         children: [
           StorySection(),
+          PostSection(),
         ],
       ),
     );
